@@ -1,7 +1,6 @@
 <module>
 	<rawname>queuemetrics</rawname>
-	<repo>commercial</repo>
-	<name>Queue Metrics</name>
+	<name>QueueMetrics</name>
 	<version>2.10.0.2</version>
 	<publisher>Schmoozecom.com</publisher>
 	<license>GPLv2</license>
@@ -13,9 +12,10 @@
                 <phpversion>5.3.0</phpversion>
 	</depends>
 	<menuitems>
-		<queuemetrics>Queue Metrics</queuemetrics>
+		<queuemetrics>QueueMetrics</queuemetrics>
 	</menuitems>
 	<changelog>
+		*2.10.0.3* Fix QueueMetrics naming
 		*2.10.0.2* Need to log to NONE for queuename for QueueMetrics
 		*2.10.0.1* Change the way data is logged for QueueMetrics
 		*2.10.0.0* First Implementation
