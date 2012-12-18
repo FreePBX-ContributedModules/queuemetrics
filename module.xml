@@ -5,7 +5,7 @@
 	<publisher>Schmoozecom.com</publisher>
 	<license>GPLv2</license>
 	<category>Settings</category>
-	<description>A module for Queue Metrics, that allow you to set if IVR selections should be logged to the queue logs.</description>
+	<description>A module for QueueMetrics, that allow you to set if IVR selections should be logged to the queue logs.</description>
 	<depends>
 		<module>ivr ge 2.11.0.1</module>
                 <version>2.11.0alpha1</version>
