@@ -8,10 +8,12 @@ foreach ($settings as $key => $val) {
 }
 
 $checked = (isset($ivr_logging) && $ivr_logging == 'true')?'CHECKED':'';
+
 echo '<h2 id="title">QueueMetrics</h2>';
 echo '<form action="' . $_SERVER['REQUEST_URI'] . '" method="post">';
 echo '<input type="hidden" name="action" value="save">'; 
 echo '<br /><br />';
+
 $table = new CI_Table();
 $table->add_row( _('Settings'));
 $table->add_row('<hr class="qmhr">');
@@ -19,6 +21,8 @@ $table->add_row('<a href="javascript:void(null)" class="info">Log IVR Selections
 $table->add_row('');
 $table->add_row('');
 $table->add_row('<input type="submit" name="' . _("Submit Changes"). '">');
+
 echo $table->generate();	
+
 echo '</form><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />';
 ?>
