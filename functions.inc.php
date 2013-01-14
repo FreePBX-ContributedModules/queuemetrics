@@ -52,14 +52,15 @@ function queuemetrics_configpageinit($pagename) {
 //process received arguments
 function queuemetrics_configprocess(){
         if (isset($_REQUEST['display']) && $_REQUEST['display'] == 'queuemetrics'){
-                //get variables
                 
+		//get variables 
 		$get_var = array('ivr_logging');
-                foreach($get_var as $var){
+		
+		foreach($get_var as $var){
                         $vars[$var] = isset($_REQUEST[$var])    ? $_REQUEST[$var]               : '';
                 }
 
-                $action         = isset($_REQUEST['action'])    ? $_REQUEST['action']   : '';
+                $action = isset($_REQUEST['action'])    ? $_REQUEST['action']   : '';
 
                 switch ($action) {
                         case 'save':
