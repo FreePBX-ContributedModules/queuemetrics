@@ -25,4 +25,3 @@ $table->add_row('<input type="submit" name="' . _("Submit Changes"). '">');
 echo $table->generate();	
 
 echo '</form><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />';
-?>
