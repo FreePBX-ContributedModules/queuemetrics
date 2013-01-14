@@ -15,10 +15,10 @@ echo '<br /><br />';
 $table = new CI_Table();
 $table->add_row( _('Settings'));
 $table->add_row('<hr class="qmhr">');
-$table->add_row('<a href="javascript:void(null)" class="info">Log IVR Selections <span style="left: -18px; display: none; ">' . _('When checked, this becomes the default directory and replaces any other directory as the default directory. This has the effect of exposing entries for this directory into the Extension/User page') . '</span></a>', '<input type="checkbox" name="ivr_logging" value="true" ' . $checked . '>');	
+$table->add_row('<a href="javascript:void(null)" class="info">Log IVR Selections <span style="left: -18px; display: none; ">' . _('When checked, IVR selections will be reported by QueueMetrics') . '</span></a>', '<input type="checkbox" name="ivr_logging" value="true" ' . $checked . '>');	
 $table->add_row('');
 $table->add_row('');
-$table->add_row('<input type="submit" name="Submit">');
+$table->add_row('<input type="submit" name="' . _("Submit Changes"). '">');
 echo $table->generate();	
 echo '</form><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />';
 ?>
