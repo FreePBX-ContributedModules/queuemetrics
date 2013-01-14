@@ -81,7 +81,8 @@ function queuemetrics_put_details($options) {
 
 	$sql = $db->prepare('REPLACE INTO queuemetrics_options (`keyword`, `value`) VALUES (?, ?)');
         $ret = $db->executeMultiple($sql, $data);
-        if($db->IsError($ret)) {
+	
+	if($db->IsError($ret)) {
         	die_freepbx($ret->getDebugInfo()."\n".$ret->getUserInfo()."\n".$db->last_query);
         }
 	return TRUE;
