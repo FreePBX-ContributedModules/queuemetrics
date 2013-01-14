@@ -2,6 +2,7 @@
 if (!defined('FREEPBX_IS_AUTH')) { die('No direct script access allowed'); }
 
 $settings = queuemetrics_get_details();
+
 foreach ($settings as $key => $val) {
 	$var[$val['keyword']] = isset($_REQUEST[$val['keyword']]) ? $_REQUEST[$val['keyword']] : $val['value'];
 	$$val['keyword'] = $var[$val['keyword']];
