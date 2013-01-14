@@ -38,7 +38,8 @@ function queuemetrics_hookGet_config($engine) {
 
 function queuemetrics_configpageinit($pagename) {
         global $currentcomponent;
-        $action = isset($_REQUEST['action']) ? $_REQUEST['action'] : '';
+
+	$action = isset($_REQUEST['action']) ? $_REQUEST['action'] : '';
         $id = isset($_REQUEST['id']) ? $_REQUEST['id'] : '';
 	
         if($pagename == 'queuemetrics'){
