@@ -16,6 +16,7 @@ echo '<input type="hidden" name="action" value="save">';
 echo '<br /><br />';
 
 $table = new CI_Table();
+
 $table->add_row( _('Settings'));
 $table->add_row('<hr class="qmhr">');
 $table->add_row('<a href="javascript:void(null)" class="info">Log IVR Selections <span style="left: -18px; display: none; ">' . _('When checked, IVR selections will be reported by QueueMetrics') . '</span></a>', '<input type="checkbox" name="ivr_logging" value="true" ' . $checked . '>');	
