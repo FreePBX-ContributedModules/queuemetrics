@@ -1,7 +1,7 @@
 <module>
 	<rawname>queuemetrics</rawname>
 	<name>QueueMetrics</name>
-	<version>2.11.0.0</version>
+	<version>2.11.0.1</version>
 	<repo>unsupported</repo>
 	<publisher>Schmoozecom.com</publisher>
 	<license>GPLv2</license>
@@ -16,6 +16,7 @@
 		<queuemetrics>QueueMetrics</queuemetrics>
 	</menuitems>
 	<changelog>
+		*2.11.0.1* Packaging of ver 2.11.0.1
 		*2.11.0.0* Move from contributed to 2.11 branch
 		*2.10.0.3* Fix QueueMetrics naming
 		*2.10.0.2* Need to log to NONE for queuename for QueueMetrics
