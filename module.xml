@@ -22,6 +22,6 @@
 		*2.10.0.1* Change the way data is logged for QueueMetrics
 		*2.10.0.0* First Implementation
 	</changelog>
-	<location>release/2.10/extensionroutes-2.10.0.5.tgz</location>
-	<md5sum>61c0d372b4019ad0839331a1bda54194</md5sum>
+	<location>release/2.11/queuemetrics-2.11.0.0.tgz</location>
+	<md5sum>b6f66d52bd1674ccffa3dc9aae043b95</md5sum>
 </module>
