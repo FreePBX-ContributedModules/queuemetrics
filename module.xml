@@ -25,4 +25,4 @@
 	</changelog>
 	<location>release/2.11/queuemetrics-2.11.0.1.tgz</location>
 	<md5sum>241405bdd47b1c4f5f53cfd8f2cc72d1</md5sum>
-</module>
+<supported><version>2.11</version></supported></module>
