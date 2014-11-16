@@ -7,3 +7,5 @@ outn(_("dropping table queuemetrics.."));
 sql('DROP TABLE IF EXISTS `queuemetrics_options`');
 out(_("done"));
 
+?>
+
