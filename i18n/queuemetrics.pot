@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-11 19:04-0500\n"
+"POT-Creation-Date: 2015-02-20 19:52-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,42 +17,54 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: /usr/src/freepbx/queuemetrics/install.php:40
+#: queuemetrics.i18n.php:5
+msgid ""
+"A module for QueueMetrics, that allows you to set if IVR selections should "
+"be logged to the queue logs."
+msgstr ""
+
+#: install.php:40
 msgid "OK"
 msgstr ""
 
-#: /usr/src/freepbx/queuemetrics/page.queuemetrics.php:20
+#: queuemetrics.i18n.php:3
+#: queuemetrics.i18n.php:6
+msgid "QueueMetrics"
+msgstr ""
+
+#: page.queuemetrics.php:20
+#: queuemetrics.i18n.php:4
 msgid "Settings"
 msgstr ""
 
-#: /usr/src/freepbx/queuemetrics/page.queuemetrics.php:25
+#: page.queuemetrics.php:25
 msgid "Submit Changes"
 msgstr ""
 
-#: /usr/src/freepbx/queuemetrics/page.queuemetrics.php:22
+#: page.queuemetrics.php:22
 msgid "When checked, IVR selections will be reported by QueueMetrics"
 msgstr ""
 
-#: /usr/src/freepbx/queuemetrics/install.php:42
+#: install.php:42
 msgid "already exists"
 msgstr ""
 
-#: /usr/src/freepbx/queuemetrics/install.php:30
+#: install.php:30
 msgid "checking for ivr_logging field..."
 msgstr ""
 
-#: /usr/src/freepbx/queuemetrics/install.php:26
+#: install.php:26
 msgid "creating queuemetrics...ok"
 msgstr ""
 
-#: /usr/src/freepbx/queuemetrics/uninstall.php:8
+#: uninstall.php:8
 msgid "done"
 msgstr ""
 
-#: /usr/src/freepbx/queuemetrics/uninstall.php:6
+#: uninstall.php:6
 msgid "dropping table queuemetrics.."
 msgstr ""
 
-#: /usr/src/freepbx/queuemetrics/install.php:9
+#: install.php:9
 msgid "queuemetrics table already exists, exiting"
 msgstr ""
