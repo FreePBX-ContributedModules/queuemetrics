@@ -3,7 +3,7 @@
 	<name>QueueMetrics</name>
 	<version>2.11.0.3</version>
 	<repo>unsupported</repo>
-	<publisher>Schmooze Com Inc</publisher>
+	<publisher>Sangoma Technologies Corporation</publisher>
 	<license>GPLv3+</license>
 	<licenselink>http://www.gnu.org/licenses/gpl-3.0.txt</licenselink>
 	<category>Settings</category>
@@ -26,6 +26,9 @@
 		*2.10.0.1* Change the way data is logged for QueueMetrics
 		*2.10.0.0* First Implementation
 	</changelog>
+	<supported>
+		<version>2.11</version>
+	</supported>
 	<location>release/2.11/queuemetrics-2.11.0.1.tgz</location>
 	<md5sum>241405bdd47b1c4f5f53cfd8f2cc72d1</md5sum>
 </module>
