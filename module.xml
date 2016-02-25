@@ -1,7 +1,7 @@
 <module>
 	<rawname>queuemetrics</rawname>
 	<name>QueueMetrics</name>
-	<version>2.11.0.3</version>
+	<version>2.11.0.4</version>
 	<repo>unsupported</repo>
 	<publisher>Sangoma Technologies Corporation</publisher>
 	<license>GPLv3+</license>
@@ -17,6 +17,7 @@
 		<queuemetrics>QueueMetrics</queuemetrics>
 	</menuitems>
 	<changelog>
+		*2.11.0.4* Remove en_US Translations
 		*2.11.0.3* Version bump
 		*2.11.0.2* Include license file
 		*2.11.0.1* Packaging of ver 2.11.0.1
