@@ -10,10 +10,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-20 19:52-0500\n"
-"PO-Revision-Date: 2016-04-02 13:51+0300\n"
+"PO-Revision-Date: 2016-04-02 20:40+0200\n"
 "Last-Translator: Media <mousavi.media@gmail.com>\n"
 "Language-Team: Persian "
-"<http://weblate.freepbx.org/projects/freepbx/framework/fa/>\n"
+"<http://weblate.freepbx.org/projects/freepbx/queuemetrics/fa/>\n"
 "Language: fa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -26,6 +26,8 @@ msgid ""
 "A module for QueueMetrics, that allows you to set if IVR selections should "
 "be logged to the queue logs."
 msgstr ""
+"ماژولی برای صف متریک، که اجازه میدهد تا اولویت را در منوی صوتی صفوف تایین "
+"کنید."
 
 #: install.php:40
 msgid "OK"
@@ -45,7 +47,7 @@ msgstr "ثبت تغییرات"
 
 #: page.queuemetrics.php:22
 msgid "When checked, IVR selections will be reported by QueueMetrics"
-msgstr ""
+msgstr "در زمان انتخاب، انتخاب های منوی صوتی توسط صف متریک گزارش داده میشوند"
 
 #: install.php:42
 msgid "already exists"
@@ -53,11 +55,11 @@ msgstr "موجود است"
 
 #: install.php:30
 msgid "checking for ivr_logging field..."
-msgstr ""
+msgstr "بررسی فیلد برای ivr_logging..."
 
 #: install.php:26
 msgid "creating queuemetrics...ok"
-msgstr ""
+msgstr "ایجاد صف متریک...تایید"
 
 #: uninstall.php:8
 msgid "done"
@@ -65,8 +67,8 @@ msgstr "انجام شده"
 
 #: uninstall.php:6
 msgid "dropping table queuemetrics.."
-msgstr ""
+msgstr "حذف جدول صف های متریک.."
 
 #: install.php:9
 msgid "queuemetrics table already exists, exiting"
-msgstr ""
+msgstr "جدول صف های متریم وجود دارد، خارج شدن"
