@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-20 19:52-0500\n"
-"PO-Revision-Date: 2016-04-27 20:05+0200\n"
+"PO-Revision-Date: 2016-04-28 15:33+0200\n"
 "Last-Translator: psdk <hyavari26@gmail.com>\n"
 "Language-Team: Persian (Iran) "
 "<http://weblate.freepbx.org/projects/freepbx/queuemetrics/fa_IR/>\n"
@@ -31,7 +31,7 @@ msgstr ""
 
 #: install.php:40
 msgid "OK"
-msgstr "تایید"
+msgstr "بله"
 
 #: queuemetrics.i18n.php:3 queuemetrics.i18n.php:6
 msgid "QueueMetrics"
@@ -51,7 +51,7 @@ msgstr "در زمان انتخاب، انتخاب های منوی صوتی تو�
 
 #: install.php:42
 msgid "already exists"
-msgstr "موجود است"
+msgstr "در حال حاضر وجود دارد"
 
 #: install.php:30
 msgid "checking for ivr_logging field..."
