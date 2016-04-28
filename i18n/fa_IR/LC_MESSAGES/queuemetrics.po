@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-20 19:52-0500\n"
-"PO-Revision-Date: 2016-04-18 18:43+0200\n"
-"Last-Translator: Media <mousavi.media@gmail.com>\n"
+"PO-Revision-Date: 2016-04-27 20:05+0200\n"
+"Last-Translator: psdk <hyavari26@gmail.com>\n"
 "Language-Team: Persian (Iran) "
 "<http://weblate.freepbx.org/projects/freepbx/queuemetrics/fa_IR/>\n"
 "Language: fa_IR\n"
@@ -43,7 +43,7 @@ msgstr "تنظیمات"
 
 #: page.queuemetrics.php:25
 msgid "Submit Changes"
-msgstr "ارسال تغییرات"
+msgstr "ثبت تغییرات"
 
 #: page.queuemetrics.php:22
 msgid "When checked, IVR selections will be reported by QueueMetrics"
