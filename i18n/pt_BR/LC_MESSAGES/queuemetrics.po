@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-20 19:52-0500\n"
-"PO-Revision-Date: 2016-12-12 23:38+0200\n"
+"PO-Revision-Date: 2016-12-13 02:41+0200\n"
 "Last-Translator: Alexander <alexander.schley@paranagua.pr.gov.br>\n"
 "Language-Team: Portuguese (Brazil) "
 "<http://weblate.freepbx.org/projects/freepbx/queuemetrics/pt_BR/>\n"
@@ -26,14 +26,16 @@ msgid ""
 "A module for QueueMetrics, that allows you to set if IVR selections should "
 "be logged to the queue logs."
 msgstr ""
+"Um módulo para Métricas de Fila, que permite definir se as seleções de URA "
+"devem ser registradas nos logs de fila."
 
 #: install.php:40
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 #: queuemetrics.i18n.php:3 queuemetrics.i18n.php:6
 msgid "QueueMetrics"
-msgstr ""
+msgstr "Métricas de Fila"
 
 #: page.queuemetrics.php:20 queuemetrics.i18n.php:4
 msgid "Settings"
@@ -41,32 +43,33 @@ msgstr "Configurações"
 
 #: page.queuemetrics.php:25
 msgid "Submit Changes"
-msgstr ""
+msgstr "Enviar Alterações"
 
 #: page.queuemetrics.php:22
 msgid "When checked, IVR selections will be reported by QueueMetrics"
 msgstr ""
+"Quando selecionada, as seleções de URA serão relatadas pelas Métricas de Fila"
 
 #: install.php:42
 msgid "already exists"
-msgstr ""
+msgstr "já existe"
 
 #: install.php:30
 msgid "checking for ivr_logging field..."
-msgstr ""
+msgstr "verificando campo ivr_logging..."
 
 #: install.php:26
 msgid "creating queuemetrics...ok"
-msgstr ""
+msgstr "criando métrica de fila...ok"
 
 #: uninstall.php:8
 msgid "done"
-msgstr ""
+msgstr "terminado"
 
 #: uninstall.php:6
 msgid "dropping table queuemetrics.."
-msgstr ""
+msgstr "eliminando tabela métricas de fila..."
 
 #: install.php:9
 msgid "queuemetrics table already exists, exiting"
-msgstr ""
+msgstr "tabela queuemetrics já existe, saindo"
