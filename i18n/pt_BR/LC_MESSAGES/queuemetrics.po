@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-20 19:52-0500\n"
-"PO-Revision-Date: 2016-12-22 01:49+0200\n"
-"Last-Translator: Alexander <alexander.schley@paranagua.pr.gov.br>\n"
+"PO-Revision-Date: 2017-04-11 14:29+0200\n"
+"Last-Translator: KNGVC <suporte@kingvoice.com.br>\n"
 "Language-Team: Portuguese (Brazil) "
 "<http://weblate.freepbx.org/projects/freepbx/queuemetrics/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -64,7 +64,7 @@ msgstr "criação do queuemetrics...ok"
 
 #: uninstall.php:8
 msgid "done"
-msgstr "concluído"
+msgstr "feito"
 
 #: uninstall.php:6
 msgid "dropping table queuemetrics.."
