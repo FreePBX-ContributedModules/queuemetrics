@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-20 19:52-0500\n"
-"PO-Revision-Date: 2017-05-27 06:57+0200\n"
+"PO-Revision-Date: 2017-05-28 06:04+0200\n"
 "Last-Translator: PETER <ftek@ymail.com>\n"
 "Language-Team: Vietnamese "
 "<http://weblate.freepbx.org/projects/freepbx/queuemetrics/vi/>\n"
@@ -35,40 +35,40 @@ msgstr "OK"
 
 #: queuemetrics.i18n.php:3 queuemetrics.i18n.php:6
 msgid "QueueMetrics"
-msgstr ""
+msgstr "QueueMetrics"
 
 #: page.queuemetrics.php:20 queuemetrics.i18n.php:4
 msgid "Settings"
-msgstr ""
+msgstr "Cài đặt"
 
 #: page.queuemetrics.php:25
 msgid "Submit Changes"
-msgstr ""
+msgstr "Gửi Thay đổi"
 
 #: page.queuemetrics.php:22
 msgid "When checked, IVR selections will be reported by QueueMetrics"
-msgstr ""
+msgstr "Khi chọn, IVR sẽ được báo cáo bởi QueueMetrics"
 
 #: install.php:42
 msgid "already exists"
-msgstr ""
+msgstr "đã tồn tại"
 
 #: install.php:30
 msgid "checking for ivr_logging field..."
-msgstr ""
+msgstr "kiểm tra ivr_logging khoảng rộng..."
 
 #: install.php:26
 msgid "creating queuemetrics...ok"
-msgstr ""
+msgstr "đang tạo queuemetrics ... ok"
 
 #: uninstall.php:8
 msgid "done"
-msgstr ""
+msgstr "xong"
 
 #: uninstall.php:6
 msgid "dropping table queuemetrics.."
-msgstr ""
+msgstr "đang bỏ bảng queuemetrics .."
 
 #: install.php:9
 msgid "queuemetrics table already exists, exiting"
-msgstr ""
+msgstr "bảng queuemetrics đã tồn tại, thoát"
