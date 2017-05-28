@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-20 19:52-0500\n"
-"PO-Revision-Date: 2017-05-28 06:04+0200\n"
+"PO-Revision-Date: 2017-05-28 06:09+0200\n"
 "Last-Translator: PETER <ftek@ymail.com>\n"
 "Language-Team: Vietnamese "
 "<http://weblate.freepbx.org/projects/freepbx/queuemetrics/vi/>\n"
@@ -35,7 +35,11 @@ msgstr "OK"
 
 #: queuemetrics.i18n.php:3 queuemetrics.i18n.php:6
 msgid "QueueMetrics"
-msgstr "QueueMetrics"
+msgstr ""
+"QueueMetrics (cho phép bạn nhìn thấy trung tâm cuộc gọi của bạn trong thời "
+"gian thực -. Những gì các đại lý của bạn đang làm, bao nhiêu cuộc gọi đang "
+"chờ đợi cho mỗi hàng đợi, bao nhiêu thời gian đã được chi tiêu trong từng "
+"giai đoạn xử lý cuộc gọi)"
 
 #: page.queuemetrics.php:20 queuemetrics.i18n.php:4
 msgid "Settings"
@@ -55,7 +59,7 @@ msgstr "đã tồn tại"
 
 #: install.php:30
 msgid "checking for ivr_logging field..."
-msgstr "kiểm tra ivr_logging khoảng rộng..."
+msgstr "kiểm tra ivr_logging khung điền..."
 
 #: install.php:26
 msgid "creating queuemetrics...ok"
