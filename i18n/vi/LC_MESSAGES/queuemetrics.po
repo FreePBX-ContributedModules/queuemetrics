@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-20 19:52-0500\n"
-"PO-Revision-Date: 2017-06-20 09:27+0200\n"
+"PO-Revision-Date: 2017-06-22 10:39+0200\n"
 "Last-Translator: PETER <ftek@ymail.com>\n"
 "Language-Team: Vietnamese "
 "<http://weblate.freepbx.org/projects/freepbx/queuemetrics/vi/>\n"
@@ -31,7 +31,7 @@ msgstr ""
 
 #: install.php:40
 msgid "OK"
-msgstr "Ok"
+msgstr "OK"
 
 #: queuemetrics.i18n.php:3 queuemetrics.i18n.php:6
 msgid "QueueMetrics"
