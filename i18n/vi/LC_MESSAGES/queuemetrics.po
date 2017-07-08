@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-20 19:52-0500\n"
-"PO-Revision-Date: 2017-07-07 08:55+0200\n"
+"PO-Revision-Date: 2017-07-07 19:53+0200\n"
 "Last-Translator: PETER <ftek@ymail.com>\n"
 "Language-Team: Vietnamese "
 "<http://weblate.freepbx.org/projects/freepbx/queuemetrics/vi/>\n"
@@ -67,7 +67,7 @@ msgstr "đang tạo queuemetrics ... ok"
 
 #: uninstall.php:8
 msgid "done"
-msgstr "Đã hoành thành"
+msgstr "Đã xong"
 
 #: uninstall.php:6
 msgid "dropping table queuemetrics.."
