@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-20 19:52-0500\n"
-"PO-Revision-Date: 2017-07-07 19:53+0200\n"
+"PO-Revision-Date: 2017-07-11 15:59+0200\n"
 "Last-Translator: PETER <ftek@ymail.com>\n"
 "Language-Team: Vietnamese "
 "<http://weblate.freepbx.org/projects/freepbx/queuemetrics/vi/>\n"
@@ -43,11 +43,11 @@ msgstr ""
 
 #: page.queuemetrics.php:20 queuemetrics.i18n.php:4
 msgid "Settings"
-msgstr "Cài đặt"
+msgstr "Các cài đặt"
 
 #: page.queuemetrics.php:25
 msgid "Submit Changes"
-msgstr "Gửi Thay đổi"
+msgstr "Gửi đi các thay đổi"
 
 #: page.queuemetrics.php:22
 msgid "When checked, IVR selections will be reported by QueueMetrics"
