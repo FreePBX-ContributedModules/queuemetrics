@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-20 19:52-0500\n"
-"PO-Revision-Date: 2018-02-02 07:57+0200\n"
-"Last-Translator: tranlsated <noemi@translated.net>\n"
+"PO-Revision-Date: 2018-02-16 16:47+0200\n"
+"Last-Translator: Nils <Nils@heckenkamp.info>\n"
 "Language-Team: German "
 "<http://weblate.freepbx.org/projects/freepbx/queuemetrics/de_DE/>\n"
 "Language: de_DE\n"
@@ -37,7 +37,7 @@ msgstr ""
 
 #: page.queuemetrics.php:20 queuemetrics.i18n.php:4
 msgid "Settings"
-msgstr ""
+msgstr "Einstellung"
 
 #: page.queuemetrics.php:25
 msgid "Submit Changes"
