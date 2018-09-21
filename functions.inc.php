@@ -28,6 +28,11 @@ function queuemetrics_hookGet_config($engine) {
 								$ext->splice($context, $selection['selection'], 'ivrsel-'.$selection['selection'], new ext_setvar("IVRSELECTION", '${EXTEN}|${IVR_CONTEXT}'));
 								$ext->splice($context, $selection['selection'], 'ivrsel-'.$selection['selection'], new ext_queuelog('NONE','${UNIQUEID}','NONE','INFO', 'IVRAPPEND|${IVRSELECTION}'));
 							}
+							$ext->splice($context, 'i','final', new ext_setvar("IVRSELECTION", 'i|${IVR_CONTEXT}'));
+							$ext->splice($context, 'i','final', new ext_queuelog('NONE','${UNIQUEID}','NONE','INFO', 'IVRAPPEND|${IVRSELECTION}'));
+							$ext->splice($context, 't','final', new ext_setvar("IVRSELECTION", 't|${IVR_CONTEXT}'));
+							$ext->splice($context, 't','final', new ext_queuelog('NONE','${UNIQUEID}','NONE','INFO', 'IVRAPPEND|${IVRSELECTION}'));
+
 						}
 					}
 				}
