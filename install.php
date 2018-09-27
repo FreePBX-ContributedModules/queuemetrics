@@ -6,24 +6,24 @@ global $db;
 $sql = "SELECT * FROM `queuemetrics_options` LIMIT 1";
 $check = $db->query($sql);
 if(!DB::IsError($check)) {
-	out(_("queuemetrics table already exists, exiting"));
+    out(_("queuemetrics table already exists, exiting"));
 } else {
 
-	unset($sql);
-	$sql[] = "CREATE TABLE IF NOT EXISTS `queuemetrics_options` (
-	                `keyword` VARCHAR(25),
-	                `value` TEXT,
-	                UNIQUE KEY `keyword` (`keyword`)
-	                )";
-	
-	foreach ($sql as $q) {
-	        $result = $db->query($q);
-	        if($db->IsError($result)){
-	                die_freepbx($result->getDebugInfo());
-	        }
-	}
+    unset($sql);
+    $sql[] = "CREATE TABLE IF NOT EXISTS `queuemetrics_options` (
+                    `keyword` VARCHAR(25),
+                    `value` TEXT,
+                    UNIQUE KEY `keyword` (`keyword`)
+                    )";
+    
+    foreach ($sql as $q) {
+            $result = $db->query($q);
+            if($db->IsError($result)){
+                    die_freepbx($result->getDebugInfo());
+            }
+    }
 
-	outn(_("creating queuemetrics...ok"));
+    outn(_("creating queuemetrics...ok"));
 }
 
 // sysadmin migration
