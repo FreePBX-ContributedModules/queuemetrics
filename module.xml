@@ -1,7 +1,7 @@
 <module>
 	<rawname>queuemetrics</rawname>
 	<name>QueueMetrics</name>
-	<version>2.11.0.4</version>
+	<version>15.0.1</version>
 	<repo>unsupported</repo>
 	<publisher>Sangoma Technologies Corporation</publisher>
 	<license>GPLv3+</license>
@@ -17,19 +17,9 @@
 		<queuemetrics>QueueMetrics</queuemetrics>
 	</menuitems>
 	<changelog>
-		*2.11.0.4* Remove en_US Translations
-		*2.11.0.3* Version bump
-		*2.11.0.2* Include license file
-		*2.11.0.1* Packaging of ver 2.11.0.1
-		*2.11.0.0* Move from contributed to 2.11 branch
-		*2.10.0.3* Fix QueueMetrics naming
-		*2.10.0.2* Need to log to NONE for queuename for QueueMetrics
-		*2.10.0.1* Change the way data is logged for QueueMetrics
-		*2.10.0.0* First Implementation
+		*15.0.1* First Implementation
 	</changelog>
 	<supported>
-		<version>2.11</version>
+		<version>15.0</version>
 	</supported>
-	<location>release/2.11/queuemetrics-2.11.0.1.tgz</location>
-	<md5sum>241405bdd47b1c4f5f53cfd8f2cc72d1</md5sum>
 </module>
