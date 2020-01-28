@@ -1,7 +1,7 @@
 <module>
 	<rawname>queuemetrics</rawname>
 	<name>QueueMetrics</name>
-	<version>15.0.1</version>
+	<version>16.0.1</version>
 	<repo>unsupported</repo>
 	<publisher>Sangoma Technologies Corporation</publisher>
 	<license>GPLv3+</license>
@@ -17,9 +17,9 @@
 		<queuemetrics>QueueMetrics</queuemetrics>
 	</menuitems>
 	<changelog>
-		*15.0.1* First Implementation
+		*16.0.1alpha* 16.0.1 alpha release
 	</changelog>
 	<supported>
-		<version>15.0</version>
+		<version>16.0</version>
 	</supported>
 </module>
